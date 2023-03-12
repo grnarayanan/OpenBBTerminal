@@ -312,7 +312,7 @@ When running VcXsrv program check the option: `Disable access control`
 
 #### 1.4. Pull and run the container
 
-Execute this commands:
+Execute these commands:
 
 ```console
 curl -o docker-compose.yaml https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/build/docker/docker-compose.yaml
@@ -356,7 +356,7 @@ IP=$(ifconfig | grep inet | grep -v "127.0.0.1" | awk '$1=="inet" {print $2}')
 
 #### 2.4. Pull and run the container
 
-Execute this commands:
+Execute these commands:
 
 ```console
 curl -o docker-compose.yaml https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/build/docker/docker-compose.yaml
@@ -379,7 +379,7 @@ Install and run Docker Desktop as describe above in this document.
 
 #### 3.2. Pull and run the container
 
-Execute this commands:
+Execute these commands:
 
 ```console
 curl -o docker-compose.yaml https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/build/docker/docker-compose.yaml
